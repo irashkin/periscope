@@ -2,12 +2,12 @@
 
 Gem::Specification.new do |gem|
   gem.name    = "periscope"
-  gem.version = "2.1.0"
+  gem.version = "2.1.1"
 
-  gem.author   = "Steve Richert"
-  gem.email    = "steve.richert@gmail.com"
+  gem.author   = "Ian Rashkin"
+  gem.email    = "irashkin@gmail.com"
   gem.summary  = "Push your models' scopes up to the surface"
-  gem.homepage = "https://github.com/laserlemon/periscope"
+  gem.homepage = "https://github.com/irashkin/periscope"
   gem.license  = "MIT"
 
   gem.add_development_dependency "bundler", "~> 1.11"
