@@ -2,16 +2,16 @@
 
 Gem::Specification.new do |gem|
   gem.name    = "periscope-activerecord"
-  gem.version = "2.1.1"
+  gem.version = "2.1.2"
 
-  gem.author   = "Steve Richert"
-  gem.email    = "steve.richert@gmail.com"
+  gem.author   = "Ian Rashkin"
+  gem.email    = "irashkin@gmail.com"
   gem.summary  = "Push your Active Record models' scopes up to the surface"
   gem.homepage = "https://github.com/laserlemon/periscope"
   gem.license  = "MIT"
 
-  gem.add_dependency "activerecord", ">= 3", "< 5.1"
-  gem.add_dependency "periscope", "~> 2.1.0"
+  gem.add_dependency "activerecord", ">= 3", "< 6"
+  gem.add_dependency "periscope", "~> 2.1.1"
 
   gem.files = %w(
     lib/periscope-activerecord.rb
